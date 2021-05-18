@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/stroke"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Ga đi"
+            android:textColor="@color/teal_700"
+            >
+        </TextView>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_ga_di"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Tuyen Quang"
+            android:textColor="@color/teal_700"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Ga đến"
+            android:textColor="@color/purple_700"
+            >
+        </TextView>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_ga_den"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Ha Noi"
+            android:textColor="@color/purple_700"
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Giá vé"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_gia_ve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="100000"
+            android:textColor="@color/black"
+            >
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Loại vé"
+            android:textColor="@color/black"
+            >
+        </TextView>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_loai_ve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Khu hoi"
+            android:textColor="@color/black"
+            >
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
